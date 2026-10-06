@@ -1,0 +1,14 @@
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/preflight.css' layer(base);
+@import 'tailwindcss/utilities.css';
+
+@import 'nativewind/theme';
+
+@theme {
+  --color-emerald-950: #022c22;
+  --color-brand: #065f46;
+  --color-brand-dark: #064e3b;
+  --color-gold: #c9a24b;
+  --color-surface: #f6f7f6;
+  --color-surface-dark: #0b1512;
+}
